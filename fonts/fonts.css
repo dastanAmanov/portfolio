@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Recoleta';
+  src: local('Recoleta SemiBold'), local('Recoleta-SemiBold'),
+      url('Recoleta-SemiBold.woff2') format('woff2'),
+      url('Recoleta-SemiBold.woff') format('woff'),
+      url('Recoleta-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/noto-sans-v12-latin-regular.woff2') format('woff2'),
+         url('../fonts/noto-sans-v12-latin-regular.woff') format('woff');
+  }
+  
