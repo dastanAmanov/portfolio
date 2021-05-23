@@ -1,0 +1,27 @@
+.header{
+    background-color: #163A24;
+    .header_main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 21px 0 25px;
+        nav ul{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            list-style-type: none;
+            li{
+                padding-left: 24px;
+                a{
+                    text-decoration: none;
+                    color: #FBFAF7;
+                    font-family: 'Noto Sans';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+                }
+            }
+    }
+}

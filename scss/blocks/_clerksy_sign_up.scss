@@ -1,0 +1,61 @@
+.clerksy_sign_up{
+    background-color: #F2EFE6;
+    .clerksy_sign_up__itme{
+        display: flex;
+        justify-content: space-between;
+        .clerksy_sign_up__text__title{
+            padding: 54px 0 26px;
+            font-family: 'Recoleta';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 54px;
+            color: #163A24;
+        }
+        .clerksy_sign_up__text__subtitle{
+            font-family: 'Noto Sans';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 27px;
+            color: #163A24;
+            padding-bottom: 79px;
+        }
+
+    }
+        .clerksy_sign_up__input{
+            form{
+                padding: 54px 0 26px;
+                position: relative;
+                input{
+                    width: 553px;
+                    padding: 15px 5px 17px;
+                    border: none;
+                    border-radius: 255px;
+                    outline: none;
+                }
+                button{
+                    position: absolute;
+                    right: -20px;
+                    padding: 15px 37px 15px;
+                    border: none;
+                }
+            }
+            .clerksy_sign_up__input__subtitle{
+                width: 520px;
+                font-family: 'Noto Sans';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 21px;
+                color: #163A24;
+                a{
+                    text-decoration: none;
+                    color: #198C36;
+                    padding: 0 0 0 10px;
+                }
+            }
+
+        }
+
+}

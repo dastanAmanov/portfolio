@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .footer__title{
+        font-family: 'Recoleta';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #163A24;
+        padding: 44px 0;
+    }
+    i{
+        color: #198C36;
+        padding-right: 10px;
+        &:hover{
+            color: #1fbb46;
+        }
+    }
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+}
+
