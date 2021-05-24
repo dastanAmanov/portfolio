@@ -1,27 +1,17 @@
 .hr_specialist__human{
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     .hr_specialist__human__text__title{
         width: 480px;
         padding: 50px 0 0 100px;
-        font-family: 'Recoleta';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 54px;
-        color: #163A24;
+        color: $darkColor;
+        @include title;
     }
     .hr_specialist__human__text__subtitle{
-        font-family: 'Noto Sans';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 27px;
-        color: #163A24;
-        padding: 27px 0 0 100px;
         width: 470px;
+        padding: 27px 0 0 100px;
+        color: $darkColor;
+        @include subtitle;
     }
 }
 .before1::before{
@@ -46,13 +36,9 @@
     background-repeat: no-repeat;
 }
 .hr_specialist_title{  
-    font-family: 'Recoleta';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 54px;
+    @include title;
+    color: $darkColor;
     text-align: center;
-    color: #163A24;
     padding: 100px 0 60px;
 }
 .hr_specialist__partner__brend{

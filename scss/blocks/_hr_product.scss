@@ -1,14 +1,10 @@
 .hr_product{
-    background-color: #163A24;
+    background-color: $bgcolor;
     margin: 127px 0 0 0;
     .hr_product__title{
-        font-family: 'Recoleta';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 54px;
+        @include title;
+        color: $whiteColor;
         text-align: center;
-        color: #FBFAF7;
         padding: 66px 0;
     }
         ul{
@@ -20,15 +16,10 @@
                 p{
                     width: 200px;
                     padding: 23px 0 181px;
-                    font-family: 'Noto Sans';
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 18px;
-                    line-height: 27px;
                     text-align: center;
-                    color: #FBFAF7;
+                    @include subtitle;
+                    color: $whiteColor;
                 }
             }
         }
-
 }

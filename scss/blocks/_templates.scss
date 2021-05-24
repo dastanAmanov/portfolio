@@ -21,5 +21,41 @@
         background-color: #22b647;
     }
 }
+
+$bgcolor: #163A24;
+$whiteBgcolor: #F2EFE6;
+$darkColor: #163A24;
+$whiteColor: #FBFAF7;
+$ff: 'Noto Sans';
+$f_F: 'Recoleta';
+$fstyle: normal;
+$fw: normal;
+
+
+@mixin title{
+  font-family: 'Recoleta';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+}
+@mixin subtitle {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
   
-  
+@mixin link {
+  text-decoration: none;
+  background: #FAB5A0;
+  border-radius: 160px;
+  padding: 15px 25px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #163A24;
+}

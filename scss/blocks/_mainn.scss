@@ -1,27 +1,20 @@
 .main{
     height: 544px;
-    background-color: #163A24;
+    background-color: $bgcolor;
     background-image: url(../img/bagroundImg.png);
     background-repeat: no-repeat;
     background-position-x: 550px;
     .main_text__title{
         width: 400px;
         padding-top: 120px;
-        font-family: 'Recoleta';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 65px;
-        color: #FBFAF7;
+        color: $whiteColor;
+        @include title;
+        
     }
     .main_text__subtitle{
         width: 450px;
         padding-top: 18px;
-        font-family: 'Noto Sans';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 27px;
-        color: #FBFAF7;
+        color: $whiteColor;
+        @include subtitle;
     }
 }

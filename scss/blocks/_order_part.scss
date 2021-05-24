@@ -1,6 +1,6 @@
 .order_part{
     height: 415px;
-    background-color: #163A24;
+    background-color: $bgcolor;
     background-image: url(../img/order_part_background.png), url(../img/order_part_background2.png);
     background-repeat: no-repeat;
     background-position:top 10px left, right;
@@ -8,39 +8,22 @@
     .order_part__title{
         text-align: center;
         padding: 114px 0 26px;
-        font-family: 'Recoleta';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 54px;
-        color: #FBFAF7;
+        @include title;
+        color: $whiteColor;
     }
     .order_part__subtitle{
-        font-family: 'Noto Sans';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 27px;
         text-align: center;
-        color: #FBFAF7;
         padding-bottom: 30px;
+        @include subtitle;
+        color: $whiteColor;
     }
     .order_part__link{
         display: flex;
         justify-content: center;
         a{
-            text-decoration: none;
-            background: #FAB5A0;
-            border-radius: 160px;
-            padding: 15px 25px;
-            font-family: 'Noto Sans';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 22px;
-            color: #163A24;
+            @include link;
             &:hover{
-                color: #fff;
+                color: $whiteColor;
             }
         }
     }   

@@ -1,5 +1,5 @@
 .header{
-    background-color: #163A24;
+    background-color: $bgcolor;
     .header_main{
         padding: 21px 0 25px;
         display: flex;
@@ -12,10 +12,10 @@
                 padding-left: 24px;
                 a{
                     text-decoration: none;
-                    color: #FBFAF7;
-                    font-family: 'Noto Sans';
-                    font-style: normal;
-                    font-weight: normal;
+                    color: $whiteColor;
+                    font-family: $subtitleFont;
+                    font-style: $subtitleStyle;
+                    font-weight: $subtitleWeight;
                     font-size: 16px;
                     line-height: 22px;
                 }

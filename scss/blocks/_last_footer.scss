@@ -3,12 +3,12 @@
     justify-content: space-between;
     padding: 25px 0;
     .last_footer__subtitle{
-        font-family: 'Noto Sans';
-        font-style: normal;
-        font-weight: normal;
+        font-family: $ff;
+        font-style: $fstyle;
+        font-weight: $fw;
         font-size: 14px;
         line-height: 21px;
-        color: #163A24;
+        color: $darkColor;
         padding-left: 10px;
     }
     ul{
@@ -17,9 +17,9 @@
         li a{
             text-decoration: none;
             padding-right: 15px;
-            font-family: 'Noto Sans';
-            font-style: normal;
-            font-weight: normal;
+            font-family: $ff;
+            font-style: $fstyle;
+            font-weight: $fw;
             font-size: 14px;
             line-height: 19px;
             color: #198C36;

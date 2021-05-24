@@ -5,21 +5,13 @@
     .hr_resource__title{
         width: 400px;  
         margin-left: 98px;
-        font-family: 'Recoleta';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 54px;
-        color: #163A24;
+        @include title;
+        color: $darkColor;
     }
     .hr_resource__subtitle{
         padding: 20px 0 30px 98px;
-        font-family: 'Noto Sans';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 27px;
-        color: #163A24;
+        @include subtitle;
+        color: $darkColor;
     }
     a{
         margin-left: 160px;
