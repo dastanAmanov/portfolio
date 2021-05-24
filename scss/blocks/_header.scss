@@ -1,13 +1,11 @@
 .header{
     background-color: #163A24;
     .header_main{
+        padding: 21px 0 25px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        padding: 21px 0 25px;
+        align-items: center;  
         nav ul{
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
             list-style-type: none;
             li{
@@ -21,7 +19,7 @@
                     font-size: 16px;
                     line-height: 22px;
                 }
-                }
             }
+        }
     }
 }
