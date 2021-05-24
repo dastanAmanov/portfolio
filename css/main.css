@@ -60,7 +60,7 @@ body {
 .header .header_main nav ul li a {
   text-decoration: none;
   color: #FBFAF7;
-  font-family: 'Noto Sans';
+  font-family: "Noto Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -78,23 +78,23 @@ body {
 .main .main_text__title {
   width: 400px;
   padding-top: 120px;
+  color: #FBFAF7;
   font-family: 'Recoleta';
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 65px;
-  color: #FBFAF7;
 }
 
 .main .main_text__subtitle {
   width: 450px;
   padding-top: 18px;
+  color: #FBFAF7;
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-  color: #FBFAF7;
 }
 
 .hr_specialist__human {
@@ -102,30 +102,30 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hr_specialist__human .hr_specialist__human__text__title {
   width: 480px;
   padding: 50px 0 0 100px;
+  color: #163A24;
   font-family: 'Recoleta';
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
-  line-height: 54px;
-  color: #163A24;
+  line-height: 65px;
 }
 
 .hr_specialist__human .hr_specialist__human__text__subtitle {
+  width: 470px;
+  padding: 27px 0 0 100px;
+  color: #163A24;
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-  color: #163A24;
-  padding: 27px 0 0 100px;
-  width: 470px;
 }
 
 .before1::before {
@@ -156,9 +156,9 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
-  line-height: 54px;
-  text-align: center;
+  line-height: 65px;
   color: #163A24;
+  text-align: center;
   padding: 100px 0 60px;
 }
 
@@ -315,7 +315,7 @@ body {
 }
 
 .order_part .order_part__link a:hover {
-  color: #fff;
+  color: #FBFAF7;
 }
 
 .clerksy_sign_up {
